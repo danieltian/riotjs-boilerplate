@@ -8,6 +8,7 @@ context.keys().forEach(key => {
   context(key);
 });
 
+// at least one store must be added to RiotControl, or else RiotControl won't wire itself up to process events
 var dummyStore = require('./stores/dummy-store');
 RiotControl.addStore(dummyStore);
 
