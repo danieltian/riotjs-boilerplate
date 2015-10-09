@@ -3,14 +3,10 @@ var webpack = require('webpack');
 // taken from:
 // https://github.com/esnunes/riotjs-loader
 module.exports = {
-  entry: './src/app',
+  entry: [ './src/app' ],
   output: {
-    path: './dist',
+    path: __dirname + './dist',
     filename: 'bundle.js'
-  },
-  // config options for webpack-dev-server
-  devServer: {
-    contentBase: './dist'
   },
   plugins: [
     new webpack.ProvidePlugin({
