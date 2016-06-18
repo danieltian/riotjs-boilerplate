@@ -1,5 +1,5 @@
 # THIS REPO IS DEPRECATED
-This repo is deprecated and no longer maintained. RiotJS has performance issues with any non-trivial single page application. Use [https://vuejs.org/](Vue.js) instead. See [https://vuejs.org/guide/comparison.html#Riot](this article) for more info.
+This repo is deprecated and no longer maintained. RiotJS has performance issues with any non-trivial single page application. Use [Vue.js](https://vuejs.org/) instead. See [this article](https://vuejs.org/guide/comparison.html#Riot) for more info.
 
 # riotjs-boilerplate
 I've been playing around with some projects that use the same boilerplate code to set up RiotJS with a bunch of tools I commonly use, so I decided to extract it out into a separate repo to serve as a quickstart repo.
